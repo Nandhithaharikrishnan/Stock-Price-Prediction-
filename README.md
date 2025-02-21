@@ -39,12 +39,12 @@ streamlit run app.py
 
 
 # Technologies
-Python
-Streamlit
-pandas
-yfinance
-ta (Technical Analysis Library)
-scikit-learn
+Python,
+Streamlit,
+pandas,
+yfinance,
+ta (Technical Analysis Library),
+scikit-learn,
 XGBoost
 
 
