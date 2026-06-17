@@ -1,16 +1,6 @@
 # Sarpannch AI-Stock Price Prediction App
 Welcome to the Stock Price Prediction App! This app allows you to visualize stock price data, explore technical indicators, and make short-term price predictions using machine learning models.
 
-
-# Table of Contents
-•	Description
-•	Features
-•	Setup
-•	Usage
-•	Technologies
-•	License
-
-
 # Description
 The Stock Price Prediction App is a Streamlit-based web application that provides users with tools to analyze historical stock price data, visualize technical indicators, and make short-term price predictions using different machine learning models.
 
@@ -21,29 +11,10 @@ best-performer, achieving 92% directional accuracy vs. 74% XGBoost baseline.
 • Deployed Streamlit app on AWS EC2; reduced inference response latency by 30% (from 2s to 1.4s) via model serialization 
 optimisation; minimized MAPE forecasting error by 18% through ensemble averaging and hyperparameter search. 
 
-
 # Features
 Visualize Technical Indicators: Explore various technical indicators such as Bollinger Bands, MACD, RSI, SMA, and EMA to gain insights into stock price trends.
 Recent Data Display: View the most recent data of the selected stock, including the last 10 data points.
 Price Prediction: Predict future stock prices using machine learning models including Linear Regression, Random Forest Regressor, Extra Trees Regressor, KNeighbors Regressor, and XGBoost Regressor.
-
-
-# Setup
-1.Navigate to the project directory:
-cd STOCK-PRICE-PREDICTION-MAIN
-
-2.Install the required Python packages using pip:
-pip install -r requirements.txt
-
-
-# Usage
-1.Run the Streamlit app:
-streamlit run app.py
-
-2.The app will open in your default web browser. Use the sidebar to choose options for visualization, recent data display, or making price predictions.
-
-3.Follow the on-screen instructions to input the stock symbol, select a date range, and choose technical indicators or prediction models.
-
 
 # Technologies
 Python,
@@ -54,5 +25,19 @@ ta (Technical Analysis Library),
 scikit-learn,
 XGBoost
 AWS
+
+
+# AWS Deployed Stock Price Prediction System
+
+An end-to-end Machine Learning application that predicts future stock prices using historical market data and advanced predictive models. The solution is deployed on AWS EC2 for scalable cloud access, enabling users to perform real-time stock analysis and forecasting through an intuitive web interface.
+
+### Highlights
+✔ Cloud Deployment on AWS EC2  
+✔ Real-Time Stock Market Forecasting  
+✔ Machine Learning-Based Predictive Analytics  
+✔ Interactive Visualization Dashboard  
+✔ Scalable & Secure Cloud Architecture  
+✔ Data-Driven Investment Insights  
+✔ End-to-End MLOps Deployment Workflow
 
 
