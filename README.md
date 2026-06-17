@@ -1,4 +1,4 @@
-# Stock Price Prediction App
+# Sarpannch AI-Stock Price Prediction App
 Welcome to the Stock Price Prediction App! This app allows you to visualize stock price data, explore technical indicators, and make short-term price predictions using machine learning models.
 
 
@@ -13,6 +13,13 @@ Welcome to the Stock Price Prediction App! This app allows you to visualize stoc
 
 # Description
 The Stock Price Prediction App is a Streamlit-based web application that provides users with tools to analyze historical stock price data, visualize technical indicators, and make short-term price predictions using different machine learning models.
+
+# Tech Stack: Python, NumPy, Scikit-Learn, Streamlit, LSTM, RNN, Machine Learning, AWS 
+• Challenge: Single-model stock predictors for NSE equities showed directional accuracy below 75% on unseen test windows. 
+Benchmarked 5 algorithms (Linear Regression, Random Forest, Extra Trees, KNN, XGBoost); selected LSTM+RNN ensemble as 
+best-performer, achieving 92% directional accuracy vs. 74% XGBoost baseline. 
+• Deployed Streamlit app on AWS EC2; reduced inference response latency by 30% (from 2s to 1.4s) via model serialization 
+optimisation; minimized MAPE forecasting error by 18% through ensemble averaging and hyperparameter search. 
 
 
 # Features
@@ -46,5 +53,6 @@ yfinance,
 ta (Technical Analysis Library),
 scikit-learn,
 XGBoost
+AWS
 
 
